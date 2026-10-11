@@ -380,11 +380,17 @@ def scan():
     limit()
 
 if __name__ == "__main__":
-    while True:
-        try:
-            limit()
-            scan()
-        except Exception as e:
-            log_securite("Crash-Bot", str(e), "N/A")
-            print(e)
-        time.sleep(900) # tous les 15 min
+    try:
+        limit()
+        scan()
+    except Exception as e:
+        log_securite("Crash-Bot", str(e), "N/A")
+        print(e)
+    # while True:
+        # try:
+        #     limit()
+        #     scan()
+        # except Exception as e:
+        #     log_securite("Crash-Bot", str(e), "N/A")
+        #     print(e)
+    #     time.sleep(900) # tous les 15 min
