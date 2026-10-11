@@ -1,0 +1,10 @@
+altgraph
+customtkinter
+darkdetect
+packaging
+pyinstaller
+pyinstaller-hooks-contrib
+setuptools
+requests
+pillow
+pytesseract
